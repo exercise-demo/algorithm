@@ -1,7 +1,6 @@
 package com.auto.yung.algorithm.exercise.sort;
 
 
-import com.auto.yung.algorithm.exercise.MergeSort;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -28,7 +27,7 @@ public class MergeSortTest {
         list.add(66);
         list.add(345);
         list.add(23);
-        com.auto.yung.algorithm.exercise.MergeSort mergeSort = new com.auto.yung.algorithm.exercise.MergeSort();
+        MergeSort mergeSort = new MergeSort();
         mergeSort.mergeSort(list);
         System.out.println(list);
     }
@@ -36,7 +35,7 @@ public class MergeSortTest {
     @Test
     public void mergeSort1() {
         int[] list = new int[] {23,12,212,102,89,34,55,3,66,345,23};
-        com.auto.yung.algorithm.exercise.MergeSort mergeSort = new MergeSort();
+        MergeSort mergeSort = new MergeSort();
         mergeSort.mergeSort(list);
         System.out.println(list);
     }
