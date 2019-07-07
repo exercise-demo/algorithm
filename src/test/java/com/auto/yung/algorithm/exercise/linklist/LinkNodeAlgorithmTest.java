@@ -64,4 +64,33 @@ public class LinkNodeAlgorithmTest {
         node = linkNodeAlgorithm.deleteDuplicateNode(node);
         linkNodeAlgorithm.printNode(node);
     }
+
+    @Test
+    public void findKthToTail() {
+        LinkNode node = LinkListFactory.createLinkList(new int[] {1,2,3,4,5,6,7,8,9});
+        System.out.println("root：");
+        linkNodeAlgorithm.printNode(node);
+        node = linkNodeAlgorithm.findKthToTail(node, 3);
+        System.out.println("findKthToTail：");
+        linkNodeAlgorithm.printNode(node);
+    }
+
+    @Test
+    public void reverseList() {
+        LinkNode node = LinkListFactory.createLinkList(new int[] {1,2,3,4,5,6,7,8,9});
+        System.out.println("root：");
+        linkNodeAlgorithm.printNode(node);
+        node = linkNodeAlgorithm.reverseList(node);
+        System.out.println("reverseList：");
+        linkNodeAlgorithm.printNode(node);
+    }
+
+    @Test
+    public void merge() {
+        LinkNode node1 = LinkListFactory.createLinkList(new int[] {1,23,34,35,234,532});
+        LinkNode node2 = LinkListFactory.createLinkList(new int[] {21,24,26,52,45,431});
+        LinkNode merge = linkNodeAlgorithm.merge(node1,node2);
+        System.out.println("merge：");
+        linkNodeAlgorithm.printNode(merge);
+    }
 }

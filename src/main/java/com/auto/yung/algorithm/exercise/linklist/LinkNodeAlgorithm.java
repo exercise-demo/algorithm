@@ -35,33 +35,110 @@ public class LinkNodeAlgorithm {
     }
 
     /**
+     * 查找链表中倒数第k个节点
+     *
+     * @param root
+     * @param k
+     * @return
+     */
+    public LinkNode findKthToTail(LinkNode root, int k) {
+        if (root == null || k <= 0) {
+            return null;
+        }
+        LinkNode firstNode = root;
+        LinkNode secondNode = root;
+        for (int i = 0; i < k - 1; ++i) {
+            if (firstNode.getNext() != null) {
+                firstNode = firstNode.getNext();
+            } else {
+                return null;
+            }
+        }
+        while (firstNode.getNext() != null) {
+            firstNode = firstNode.getNext();
+            secondNode = secondNode.getNext();
+        }
+        return secondNode;
+    }
+
+    /**
+     * 链表反转
+     *
+     * @param node
+     * @return
+     */
+    public LinkNode reverseList(LinkNode node) {
+        if (node == null) {
+            return null;
+        }
+        LinkNode preNode = null;
+        LinkNode curNode = node;
+        LinkNode nextNode = curNode.getNext();
+        while (nextNode != null) {
+            curNode.setNext(preNode);
+            preNode = curNode;
+            curNode = nextNode;
+            nextNode = curNode.getNext();
+        }
+        curNode.setNext(preNode);
+
+        return curNode;
+    }
+
+    /**
+     * 合并两个排序的链表
+     *
+     * @param node1
+     * @param node2
+     * @return
+     */
+    public LinkNode merge(LinkNode node1, LinkNode node2) {
+        if (node1 == null) {
+            return node2;
+        }
+        if (node2 == null) {
+            return node1;
+        }
+        LinkNode pNode = null;
+        if (node1.getValue() < node2.getValue()) {
+            pNode = node1;
+            pNode.setNext(merge(node1.getNext(), node2));
+        } else {
+            pNode = node2;
+            pNode.setNext(merge(node1, node2.getNext()));
+        }
+        return pNode;
+    }
+
+    /**
      * 删除 重复节点
+     *
      * @return
      */
     public LinkNode deleteDuplicateNode(LinkNode root) {
-        if(root == null) {
+        if (root == null) {
             return null;
         }
         LinkNode pNode = root;
         LinkNode preNode = null;
-        while(pNode != null) {
+        while (pNode != null) {
             LinkNode pNext = pNode.getNext();
             boolean needDeleted = false;
-            if(pNext != null && pNode.getValue() == pNext.getValue()) {
+            if (pNext != null && pNode.getValue() == pNext.getValue()) {
                 needDeleted = true;
             }
-            if(!needDeleted) {
+            if (!needDeleted) {
                 preNode = pNode;
                 pNode = pNode.getNext();
             } else {
                 int value = pNode.getValue();
                 LinkNode toBeDelete = pNode;
-                while(toBeDelete.getValue() == value) {
+                while (toBeDelete.getValue() == value) {
                     pNext = toBeDelete.getNext();
                     toBeDelete.setNext(null);
                     toBeDelete = pNext;
                 }
-                if(preNode != null) {
+                if (preNode != null) {
                     preNode.setNext(pNext);
                 } else {
                     root = pNext;

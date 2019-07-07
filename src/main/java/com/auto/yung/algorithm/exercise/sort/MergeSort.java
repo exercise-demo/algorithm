@@ -12,7 +12,7 @@ import java.util.List;
  * <p>
  *     时间复杂度                空间复杂度  稳定性
  *     平均情况  最好情况 最坏情况  辅助存储   稳定
- *     O(n2)    O(n2)  O(n2)     O(1)
+ *     O(nlogn)    O(n2)  O(n2)     O(1)
  * </p>
  */
 public class MergeSort {
