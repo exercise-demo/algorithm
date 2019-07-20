@@ -48,14 +48,19 @@ public class BinaryTreeNodeTraversalTest {
 
     @Test
     public void kthNode() {
-        BinaryTreeNode sb = treeNodeTraversal.kthNode(root,5);
+        BinaryTreeNode sb = treeNodeTraversal.kthNode(root, 5);
         System.out.println("kthNode：" + sb.getValue());
     }
 
     @Test
     public void reverse() {
-        treeNodeTraversal.reverse(root);
         String sb = treeNodeTraversal.printPreOrder(root);
-        System.out.println(sb);
+        System.out.println("原始：" + sb);
+        treeNodeTraversal.reverse(root);
+        sb = treeNodeTraversal.printPreOrder(root);
+        System.out.println("反转：" + sb);
+        treeNodeTraversal.reverseNotR(root);
+        sb = treeNodeTraversal.printPreOrder(root);
+        System.out.println("反转：" + sb);
     }
 }

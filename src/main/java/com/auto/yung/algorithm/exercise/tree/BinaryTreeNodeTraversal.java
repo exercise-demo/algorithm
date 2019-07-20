@@ -217,6 +217,28 @@ public class BinaryTreeNodeTraversal {
         return root;
     }
 
+    public BinaryTreeNode reverseNotR(BinaryTreeNode root) {
+        if(root == null) {
+            return null;
+        }
+        Stack<BinaryTreeNode> stack = new Stack<>();
+        stack.push(root);
+        while(!stack.isEmpty()) {
+            BinaryTreeNode temp = stack.pop();
+            BinaryTreeNode left = temp.getLeft();
+            BinaryTreeNode right = temp.getRight();
+            if(left != null) {
+                stack.push(left);
+            }
+            if(right != null ){
+                stack.push(right);
+            }
+            temp.setRight(left);
+            temp.setLeft(right);
+        }
+        return root;
+    }
+
     /**
      * 第k个位置的节点
      *
