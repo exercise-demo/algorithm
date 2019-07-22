@@ -86,6 +86,34 @@ public class LinkNodeAlgorithm {
     }
 
     /**
+     * 两两翻转链表
+     *
+     * @param node
+     * @return
+     */
+    public LinkNode twoReverseList(LinkNode node) {
+        if (node == null || node.getNext() == null) {
+            return node;
+        }
+        LinkNode pre = null;
+        LinkNode cur = node;
+        LinkNode res = cur.getNext();
+        LinkNode nextNext;
+        while (cur != null && cur.getNext() != null) {
+            nextNext = cur.getNext().getNext();
+            cur.getNext().setNext(cur);
+            if (pre != null) {
+                pre.setNext(cur.getNext());
+            }
+            cur.setNext(nextNext);
+
+            pre = cur;
+            cur = cur.getNext();
+        }
+        return res;
+    }
+
+    /**
      * 合并两个排序的链表
      *
      * @param node1

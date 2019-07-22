@@ -27,6 +27,54 @@ public class LinkNodeAlgorithmTest {
         toBeDeleted = LinkListFactory.findValue(root, 6);
     }
 
+
+    @Test
+    public void text() {
+        array = new int[]{1, 2, 3, 4, 5};
+        root = LinkListFactory.createLinkList(array);
+        System.out.println("root：");
+        linkNodeAlgorithm.printNode(root);
+         root = reverse(root);
+
+        System.out.println("deleted：");
+        linkNodeAlgorithm.printNode(root);
+    }
+
+    @Test
+    public void reverse1() {
+        array = new int[]{1, 2, 3, 4, 5};
+        root = LinkListFactory.createLinkList(array);
+        System.out.println("root：");
+        linkNodeAlgorithm.printNode(root);
+        root = linkNodeAlgorithm.twoReverseList(root);
+
+        System.out.println("twoReverse：");
+        linkNodeAlgorithm.printNode(root);
+    }
+    private LinkNode  reverse(LinkNode root) {
+        if(root == null || root.getNext() == null) {
+            return root;
+        }
+
+        LinkNode cur = root;
+        LinkNode res = cur.getNext();
+        LinkNode pre = null;
+        LinkNode next = null;
+
+        while (cur != null && cur.getNext() != null) {
+            next = cur.getNext().getNext();
+            cur.getNext().setNext(cur);
+            if (pre != null) {
+                pre.setNext( cur.getNext());
+            }
+            cur.setNext(next);
+
+            pre = cur;
+            cur = cur.getNext();
+        }
+        return res;
+    }
+
     @Test
     public void deleteNode1() throws Exception {
         System.out.println("root：");
