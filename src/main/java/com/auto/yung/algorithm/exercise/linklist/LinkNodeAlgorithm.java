@@ -113,6 +113,28 @@ public class LinkNodeAlgorithm {
         return res;
     }
 
+    public LinkNode twoReverseList1(LinkNode root) {
+        if (root == null || root.getNext() == null) {
+            return root;
+        }
+        LinkNode pre = null;
+        LinkNode cur = root;
+        LinkNode next;
+        while (cur != null && cur.getNext() != null) {
+            next = cur.getNext();
+            cur.setNext(next.getNext());
+            next.setNext(cur);
+            if (pre == null) {
+                root = next;
+            } else {
+                pre.setNext(next);
+            }
+            pre = cur;
+            cur = cur.getNext();
+        }
+        return root;
+    }
+
     /**
      * 合并两个排序的链表
      *

@@ -50,6 +50,14 @@ public class LinkNodeAlgorithmTest {
 
         System.out.println("twoReverse：");
         linkNodeAlgorithm.printNode(root);
+
+        LinkNode root1 = LinkListFactory.createLinkList(array);
+        System.out.println("root1：");
+        linkNodeAlgorithm.printNode(root1);
+
+        root1 = linkNodeAlgorithm.twoReverseList1(root1);
+        System.out.println("twoReverse1：");
+        linkNodeAlgorithm.printNode(root1);
     }
     private LinkNode  reverse(LinkNode root) {
         if(root == null || root.getNext() == null) {

@@ -28,4 +28,15 @@ public class StringPatternTest {
         System.out.println(flag);
     }
 
+    @Test
+    public void longestSubString() {
+        String subString = stringPattern.longestSubString("abdcbefb");
+        System.out.println(subString);
+    }
+
+    @Test
+    public void longestSubString1() {
+        String subString = stringPattern.longestSubString1("abdcbefb");
+        System.out.println(subString);
+    }
 }
