@@ -33,6 +33,12 @@ public class KthNumberAlgorithmTest {
         print(ret);
     }
 
+    @Test
+    public void getLeastKthNumber1() throws Exception {
+        int[] ret = numberAlgorithm.getLeastKthNumber1(numbers,4);
+        print(ret);
+    }
+
     private void print(int[] array) {
         if(array == null) {
             System.out.println();

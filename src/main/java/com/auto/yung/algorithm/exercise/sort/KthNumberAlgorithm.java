@@ -1,5 +1,8 @@
 package com.auto.yung.algorithm.exercise.sort;
 
+import java.util.Iterator;
+import java.util.TreeSet;
+
 /**
  * @author yungwang
  * @date 2019/7/28.
@@ -88,6 +91,39 @@ public class KthNumberAlgorithm {
                 ret[0] = array[i];
                 adjustMaxHeap(ret, 0, k);
             }
+        }
+        return ret;
+    }
+
+    /**
+     * 求最小的k个数 ,采用TreeSet
+     *
+     * @param input
+     * @param k
+     * @return
+     */
+    public int[] getLeastKthNumber1(int[] input, int k) {
+        if (input == null || k <= 0) {
+            return null;
+        }
+        if (k > input.length) {
+            return input;
+        }
+        int[] ret = new int[k];
+        TreeSet<Integer> tree = new TreeSet<Integer>();
+        for (int i = 0; i < input.length; i++) {
+            tree.add(input[i]);
+        }
+        for (int i = k; i < input.length; i++) {
+            if (input[k] < tree.first()) {
+                int temp = tree.first();
+                tree.remove(temp);
+                tree.add(input[k]);
+            }
+        }
+        int nx = 0;
+        for (Iterator<Integer> iterator = tree.iterator(); iterator.hasNext() && nx < k; ) {
+            ret[nx++] = iterator.next();
         }
         return ret;
     }
