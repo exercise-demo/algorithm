@@ -12,7 +12,6 @@ import java.util.List;
  */
 public class MergeSortTest {
 
-
     @Test
     public void mergeSort() {
         List<Integer> list = new ArrayList<Integer>();
@@ -34,9 +33,17 @@ public class MergeSortTest {
 
     @Test
     public void mergeSort1() {
-        int[] list = new int[] {23,12,212,102,89,34,55,3,66,345,23};
+        int[] list = new int[]{23, 12, 212, 102, 89, 34, 55, 3, 66, 345, 23};
         MergeSort mergeSort = new MergeSort();
         mergeSort.mergeSort(list);
         System.out.println(list);
+    }
+
+    @Test
+    public void mergeData() {
+        int[][] matrix = new int[][]{{1, 5, 25, 35, 78}, {3, 23, 26, 43, 56}, {2, 32, 44, 51, 58}};
+        MergeSort mergeSort = new MergeSort();
+        int[] rt = mergeSort.mergeData(matrix);
+        System.out.println(rt);
     }
 }

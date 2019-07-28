@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bdf12106-563f-4225-b791-ca910297d1bf" name="Default" comment="feat(20190727):最长不含重复字符的子字符串">
+    <list default="true" id="bdf12106-563f-4225-b791-ca910297d1bf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/matrix/MatrixAlgorithm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/KthNumberAlgorithm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/matrix/MatrixAlgorithmTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/KthNumberAlgorithmTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/linklist/LinkNodeAlgorithm.java" afterPath="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/linklist/LinkNodeAlgorithm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/string/StringPattern.java" afterPath="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/string/StringPattern.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/linklist/LinkNodeAlgorithmTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/linklist/LinkNodeAlgorithmTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/string/StringPatternTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/string/StringPatternTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/MergeSort.java" afterPath="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/MergeSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/heap/HeapSort.java" afterPath="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/heap/HeapSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/MergeSortTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/MergeSortTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,53 +35,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="HeapSort.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HeapSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/heap/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2025">
-              <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+            <state relative-caret-position="76">
+              <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkNodeAlgorithm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/linklist/LinkNodeAlgorithm.java">
+      <file leaf-file-name="HeapSortTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/heap/HeapSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/linklist/LinkNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="e#364#365#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkListFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/linklist/LinkListFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2475">
-              <caret line="55" column="9" lean-forward="false" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkNodeAlgorithmTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/linklist/LinkNodeAlgorithmTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+            <state relative-caret-position="346">
+              <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -87,43 +58,69 @@
       <file leaf-file-name="NBitDigits.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/ndigits/NBitDigits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="481">
+              <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringPattern.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/string/StringPattern.java">
+      <file leaf-file-name="KthNumberAlgorithm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/KthNumberAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringPatternTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/string/StringPatternTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+            <state relative-caret-position="-409">
+              <caret line="87" column="34" lean-forward="true" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrintTreeNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/tree/PrintTreeNode.java">
+      <file leaf-file-name="KthNumberAlgorithmTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/KthNumberAlgorithmTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9315">
-              <caret line="208" column="1" lean-forward="false" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="761">
+              <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatrixAlgorithm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/matrix/MatrixAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="86" column="6" lean-forward="true" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatrixAlgorithmTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/matrix/MatrixAlgorithmTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1291">
+              <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeSortTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/MergeSortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,8 +130,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -157,7 +154,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/InsertSortTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/MergeSortTest.java" />
         <option value="$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" />
         <option value="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/ndigits/NBitDigits.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/ndigits/NBitDigitsTest.java" />
@@ -168,14 +164,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/tree/BinaryTreeNode.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/tree/BinaryTreeNodeFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/tree/BinaryTreeNodeFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/tree/PrintTreeNode.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/tree/PrintTreeNodeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/dynamicplanning/gift/GreatestValueGiftTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/dynamicplanning/gift/GreatestValueGift.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/tree/BinaryTreeNodeTraversal.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/tree/BinaryTreeNodeTraversalTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/heap/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/heap/HeapSortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/linklist/LinkNodeDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/linklist/LinkNode.java" />
@@ -183,6 +177,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/linklist/LinkNodeAlgorithmTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/string/StringPatternTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/string/StringPattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/matrix/MatrixAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/matrix/MatrixAlgorithmTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/MergeSortTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/heap/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/KthNumberAlgorithmTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/KthNumberAlgorithm.java" />
       </list>
     </option>
   </component>
@@ -249,6 +250,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -343,6 +345,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise-demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise-demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="linklist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -390,8 +422,34 @@
               <option name="myItemId" value="exercise" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tree" />
+              <option name="myItemId" value="exercise-demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise-demo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sort" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -421,7 +479,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="string" />
+              <option name="myItemId" value="sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="heap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -448,6 +510,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="exercise" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sort" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adjust" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -484,7 +554,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -499,11 +568,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.auto.yung.algorithm.exercise.sort" />
+      <recent name="com.auto.yung.algorithm.exercise.matrix" />
       <recent name="com.auto.yung.algorithm.exercise.sort.heap" />
       <recent name="com.auto.yung.algorithm.exercise.dynamicplanning.gift" />
       <recent name="com.auto.yung.algorithm.exercise.tree" />
-      <recent name="com.auto.yung.algorithm.exercise.sort.adjust" />
-      <recent name="com.auto.yung.algorithm.exercise.string" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.auto.yung.algorithm.exercise" />
@@ -529,7 +598,85 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringPatternTest.longestSubString1">
+  <component name="RunManager" selected="JUnit.KthNumberAlgorithmTest.getLeastKthNumber">
+    <configuration default="false" name="MatrixAlgorithmTest.existsNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.auto.yung.algorithm.exercise.matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="exercise-demo1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.auto.yung.algorithm.exercise.matrix" />
+      <option name="MAIN_CLASS_NAME" value="com.auto.yung.algorithm.exercise.matrix.MatrixAlgorithmTest" />
+      <option name="METHOD_NAME" value="existsNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MatrixAlgorithmTest.ktnSmallest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.auto.yung.algorithm.exercise.matrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="exercise-demo1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.auto.yung.algorithm.exercise.matrix" />
+      <option name="MAIN_CLASS_NAME" value="com.auto.yung.algorithm.exercise.matrix.MatrixAlgorithmTest" />
+      <option name="METHOD_NAME" value="ktnSmallest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MergeSortTest.mergeData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.auto.yung.algorithm.exercise.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="exercise-demo1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.auto.yung.algorithm.exercise.sort" />
+      <option name="MAIN_CLASS_NAME" value="com.auto.yung.algorithm.exercise.sort.MergeSortTest" />
+      <option name="METHOD_NAME" value="mergeData" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="false" name="HeapSortTest.sort1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -556,97 +703,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="LinkNodeAlgorithmTest.text" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="KthNumberAlgorithmTest.getLeastKthNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.auto.yung.algorithm.exercise.linklist.*" />
+          <option name="PATTERN" value="com.auto.yung.algorithm.exercise.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="exercise-demo1" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.auto.yung.algorithm.exercise.linklist" />
-      <option name="MAIN_CLASS_NAME" value="com.auto.yung.algorithm.exercise.linklist.LinkNodeAlgorithmTest" />
-      <option name="METHOD_NAME" value="text" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="LinkNodeAlgorithmTest.reverse1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.auto.yung.algorithm.exercise.linklist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="exercise-demo1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.auto.yung.algorithm.exercise.linklist" />
-      <option name="MAIN_CLASS_NAME" value="com.auto.yung.algorithm.exercise.linklist.LinkNodeAlgorithmTest" />
-      <option name="METHOD_NAME" value="reverse1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="StringPatternTest.longestSubString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.auto.yung.algorithm.exercise.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="exercise-demo1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.auto.yung.algorithm.exercise.string" />
-      <option name="MAIN_CLASS_NAME" value="com.auto.yung.algorithm.exercise.string.StringPatternTest" />
-      <option name="METHOD_NAME" value="longestSubString" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="StringPatternTest.longestSubString1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.auto.yung.algorithm.exercise.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="exercise-demo1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.auto.yung.algorithm.exercise.string" />
-      <option name="MAIN_CLASS_NAME" value="com.auto.yung.algorithm.exercise.string.StringPatternTest" />
-      <option name="METHOD_NAME" value="longestSubString1" />
+      <option name="PACKAGE_NAME" value="com.auto.yung.algorithm.exercise.sort" />
+      <option name="MAIN_CLASS_NAME" value="com.auto.yung.algorithm.exercise.sort.KthNumberAlgorithmTest" />
+      <option name="METHOD_NAME" value="getLeastKthNumber" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1070,19 +1139,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HeapSortTest.sort1" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LinkNodeAlgorithmTest.text" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LinkNodeAlgorithmTest.reverse1" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.StringPatternTest.longestSubString" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.StringPatternTest.longestSubString1" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MatrixAlgorithmTest.existsNumber" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MatrixAlgorithmTest.ktnSmallest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MergeSortTest.mergeData" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HeapSortTest.sort1" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.KthNumberAlgorithmTest.getLeastKthNumber" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.StringPatternTest.longestSubString1" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StringPatternTest.longestSubString" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LinkNodeAlgorithmTest.reverse1" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.LinkNodeAlgorithmTest.text" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HeapSortTest.sort1" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.KthNumberAlgorithmTest.getLeastKthNumber" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HeapSortTest.sort1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MergeSortTest.mergeData" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MatrixAlgorithmTest.ktnSmallest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MatrixAlgorithmTest.existsNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -1107,7 +1176,8 @@
       <workItem from="1563032116067" duration="727000" />
       <workItem from="1563548551295" duration="14306000" />
       <workItem from="1563797548406" duration="7184000" />
-      <workItem from="1564226263531" duration="7940000" />
+      <workItem from="1564226263531" duration="8544000" />
+      <workItem from="1564278746717" duration="12218000" />
     </task>
     <task id="LOCAL-00001" summary="feat:新增链表的操作算法">
       <created>1562423522678</created>
@@ -1144,43 +1214,50 @@
       <option name="project" value="LOCAL" />
       <updated>1563807566893</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat(20190727):最长不含重复字符的子字符串">
+      <created>1564238259147</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564238259147</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringPatternTest_longestSubString - 2019.07.27 at 20h 48m 19s.xml">
-      <configuration name="StringPatternTest.longestSubString" configurationId="JUnit" />
+    <history-entry file="HeapSortTest_sort1 - 2019.07.28 at 17h 46m 06s.xml">
+      <configuration name="HeapSortTest.sort1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringPatternTest_longestSubString - 2019.07.27 at 20h 50m 55s.xml">
-      <configuration name="StringPatternTest.longestSubString" configurationId="JUnit" />
+    <history-entry file="KthNumberAlgorithmTest_getLeastKthNumber - 2019.07.28 at 18h 02m 01s.xml">
+      <configuration name="KthNumberAlgorithmTest.getLeastKthNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringPatternTest_longestSubString - 2019.07.27 at 20h 51m 00s.xml">
-      <configuration name="StringPatternTest.longestSubString" configurationId="JUnit" />
+    <history-entry file="KthNumberAlgorithmTest_getLeastKthNumber - 2019.07.28 at 18h 04m 47s.xml">
+      <configuration name="KthNumberAlgorithmTest.getLeastKthNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringPatternTest_longestSubString - 2019.07.27 at 22h 31m 53s.xml">
-      <configuration name="StringPatternTest.longestSubString" configurationId="JUnit" />
+    <history-entry file="KthNumberAlgorithmTest_getLeastKthNumber - 2019.07.28 at 18h 05m 36s.xml">
+      <configuration name="KthNumberAlgorithmTest.getLeastKthNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringPatternTest_longestSubString - 2019.07.27 at 22h 32m 11s.xml">
-      <configuration name="StringPatternTest.longestSubString" configurationId="JUnit" />
+    <history-entry file="KthNumberAlgorithmTest_getLeastKthNumber - 2019.07.28 at 18h 07m 08s.xml">
+      <configuration name="KthNumberAlgorithmTest.getLeastKthNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringPatternTest_longestSubString1 - 2019.07.27 at 22h 27m 49s.xml">
-      <configuration name="StringPatternTest.longestSubString1" configurationId="JUnit" />
+    <history-entry file="KthNumberAlgorithmTest_getLeastKthNumber - 2019.07.28 at 18h 17m 46s.xml">
+      <configuration name="KthNumberAlgorithmTest.getLeastKthNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringPatternTest_longestSubString1 - 2019.07.27 at 22h 28m 40s.xml">
-      <configuration name="StringPatternTest.longestSubString1" configurationId="JUnit" />
+    <history-entry file="KthNumberAlgorithmTest_getLeastKthNumber - 2019.07.28 at 18h 18m 19s.xml">
+      <configuration name="KthNumberAlgorithmTest.getLeastKthNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringPatternTest_longestSubString1 - 2019.07.27 at 22h 31m 12s.xml">
-      <configuration name="StringPatternTest.longestSubString1" configurationId="JUnit" />
+    <history-entry file="KthNumberAlgorithmTest_getLeastKthNumber - 2019.07.28 at 18h 18m 40s.xml">
+      <configuration name="KthNumberAlgorithmTest.getLeastKthNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringPatternTest_longestSubString1 - 2019.07.27 at 22h 36m 11s.xml">
-      <configuration name="StringPatternTest.longestSubString1" configurationId="JUnit" />
+    <history-entry file="KthNumberAlgorithmTest_getLeastKthNumber - 2019.07.28 at 18h 24m 44s.xml">
+      <configuration name="KthNumberAlgorithmTest.getLeastKthNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringPatternTest_longestSubString1 - 2019.07.27 at 22h 36m 15s.xml">
-      <configuration name="StringPatternTest.longestSubString1" configurationId="JUnit" />
+    <history-entry file="KthNumberAlgorithmTest_getLeastKthNumber - 2019.07.28 at 18h 24m 48s.xml">
+      <configuration name="KthNumberAlgorithmTest.getLeastKthNumber" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87218000" />
+    <option name="totallyTimeSpent" value="100040000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1203,13 +1280,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963374" sideWeight="0.50106835" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23557693" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19700333" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19755827" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3190899" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33407325" sideWeight="0.49893162" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2863248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.289797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1237,7 +1314,8 @@
     <MESSAGE value="feat(20190713):新增二叉树遍历的非递归的方式" />
     <MESSAGE value="feat(20190720):新增堆排序的实现方式" />
     <MESSAGE value="feat(20190722):两两翻转链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(20190722):两两翻转链表" />
+    <MESSAGE value="feat(20190727):最长不含重复字符的子字符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(20190727):最长不含重复字符的子字符串" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1451,8 +1529,62 @@
           <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/MergeSortTest.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/MergeSortTest.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/MergeSort.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/heap/HeapSortTest.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/KthNumberAlgorithmTest.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/KthNumberAlgorithm.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/KthNumberAlgorithm.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/KthNumberAlgorithm.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/KthNumberAlgorithm.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="55" />
+      <option name="time" value="67" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1461,35 +1593,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/ndigits/NBitDigitsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/MergeSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="37" column="46" lean-forward="true" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/ndigits/NBitDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -1565,13 +1668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/MergeSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="37" column="46" lean-forward="false" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1694,25 +1790,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/tree/BinaryTreeNodeTraversalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2295">
           <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/adjust/ArrayAdjustSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1723,21 +1805,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/heap/HeapSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1665">
           <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1745,50 +1816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4725">
           <caret line="136" column="13" lean-forward="false" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#91089#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#12815#12816#0" expanded="false" />
-            <element signature="e#12893#12894#0" expanded="false" />
-            <element signature="e#19072#19073#0" expanded="false" />
-            <element signature="e#19130#19131#0" expanded="false" />
-            <element signature="e#19296#19297#0" expanded="false" />
-            <element signature="e#19379#19380#0" expanded="false" />
-            <element signature="e#21076#21077#0" expanded="false" />
-            <element signature="e#21103#21104#0" expanded="false" />
-            <element signature="e#21303#21304#0" expanded="false" />
-            <element signature="e#21335#21336#0" expanded="false" />
-            <element signature="e#23597#23598#0" expanded="false" />
-            <element signature="e#23651#23652#0" expanded="false" />
-            <element signature="e#24298#24299#0" expanded="false" />
-            <element signature="e#24363#24364#0" expanded="false" />
-            <element signature="e#31026#31027#0" expanded="false" />
-            <element signature="e#31064#31065#0" expanded="false" />
-            <element signature="e#36156#36157#0" expanded="false" />
-            <element signature="e#36240#36241#0" expanded="false" />
-            <element signature="e#36292#36293#0" expanded="false" />
-            <element signature="e#36370#36371#0" expanded="false" />
-            <element signature="e#38365#38366#0" expanded="false" />
-            <element signature="e#38445#38446#0" expanded="false" />
-            <element signature="e#40325#40326#0" expanded="false" />
-            <element signature="e#40375#40376#0" expanded="false" />
-            <element signature="e#42095#42096#0" expanded="false" />
-            <element signature="e#42159#42160#0" expanded="false" />
-            <element signature="e#42228#42229#0" expanded="false" />
-            <element signature="e#42304#42305#0" expanded="false" />
-            <element signature="e#55067#55068#0" expanded="false" />
-            <element signature="e#55110#55111#0" expanded="false" />
-            <element signature="e#63149#63150#0" expanded="false" />
-            <element signature="e#63234#63235#0" expanded="false" />
-            <element signature="e#66531#66532#0" expanded="false" />
-            <element signature="e#66588#66589#0" expanded="false" />
-            <element signature="e#66702#66703#0" expanded="false" />
-            <element signature="e#66765#66766#0" expanded="false" />
-            <element signature="e#68631#68632#0" expanded="false" />
-            <element signature="e#68682#68683#0" expanded="false" />
-            <element signature="e#71254#71255#0" expanded="false" />
-            <element signature="e#71336#71337#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1806,15 +1833,8 @@
           <caret line="208" column="1" lean-forward="false" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="false" />
+            <element signature="e#1085#1101#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/heap/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1832,40 +1852,41 @@
         <state relative-caret-position="765">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="false" />
+            <element signature="e#231#232#0" expanded="false" />
+            <element signature="e#270#271#0" expanded="false" />
+            <element signature="e#304#305#0" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
+            <element signature="e#438#439#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/linklist/LinkNodeAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
+        <state relative-caret-position="5580">
           <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/ndigits/NBitDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/linklist/LinkNodeAlgorithmTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="2610">
+          <caret line="61" column="46" lean-forward="false" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/string/StringPatternTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="1575">
+          <caret line="38" column="43" lean-forward="false" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1879,11 +1900,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/string/StringPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        <state relative-caret-position="80">
+          <caret line="92" column="24" lean-forward="true" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/matrix/MatrixAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="86" column="6" lean-forward="true" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/matrix/MatrixAlgorithmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1291">
+          <caret line="41" column="60" lean-forward="true" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="105" column="0" lean-forward="false" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/MergeSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/ndigits/NBitDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="93" column="13" lean-forward="true" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/adjust/ArrayAdjustSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/heap/HeapSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/auto/yung/algorithm/exercise/sort/KthNumberAlgorithmTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="761">
+          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/KthNumberAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-409">
+          <caret line="87" column="34" lean-forward="true" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/auto/yung/algorithm/exercise/sort/heap/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>

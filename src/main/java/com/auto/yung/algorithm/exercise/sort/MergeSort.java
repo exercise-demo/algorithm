@@ -7,12 +7,12 @@ import java.util.List;
  * @author yung
  * @date 2019-05-23 11:48
  * <p>
- *     归并算法（从上往下）
+ * 归并算法（从上往下）
  * </p>
  * <p>
- *     时间复杂度                空间复杂度  稳定性
- *     平均情况  最好情况 最坏情况  辅助存储   稳定
- *     O(nlogn)    O(n2)  O(n2)     O(1)
+ * 时间复杂度                空间复杂度  稳定性
+ * 平均情况  最好情况 最坏情况  辅助存储   稳定
+ * O(nlogn)    O(n2)  O(n2)     O(1)
  * </p>
  */
 public class MergeSort {
@@ -97,5 +97,49 @@ public class MergeSort {
         for (int item : temp) {
             list[start++] = item;
         }
+    }
+
+    public int[] mergeData(int[][] arrays) {
+        if (arrays == null || arrays.length == 0) {
+            return null;
+        }
+        return sortMerge(arrays, 0, arrays.length - 1);
+    }
+
+    private int[] sortMerge(int[][] arrays, int start, int end) {
+        if (end <= start) {
+            return arrays[start];
+        }
+        int mid = (start + end) / 2;
+        int[] left = sortMerge(arrays, start, mid);
+        int[] right = sortMerge(arrays, mid + 1, end);
+        return merge(left, right);
+    }
+
+    private int[] merge(int[] left, int[] right) {
+        if (left == null) {
+            return left;
+        }
+        if (right == null) {
+            return right;
+        }
+        int i = 0;
+        int j = 0;
+        int k = 0;
+        int[] temp = new int[left.length + right.length];
+        while (i < left.length && j < right.length) {
+            if (left[i] < right[j]) {
+                temp[k++] = left[i++];
+            } else {
+                temp[k++] = right[j++];
+            }
+        }
+        while (i < left.length) {
+            temp[k++] = left[i++];
+        }
+        while (j < right.length) {
+            temp[k++] = right[j++];
+        }
+        return temp;
     }
 }

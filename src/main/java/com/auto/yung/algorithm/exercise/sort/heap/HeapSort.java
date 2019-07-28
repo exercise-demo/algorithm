@@ -60,6 +60,7 @@ public class HeapSort {
             if (array[k] > temp) {
                 swap(array, i, k);
                 i = k;
+                k = 2 * k + 1;
             } else {
                 break;
             }
